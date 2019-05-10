@@ -18,6 +18,48 @@ export default new Router({
       }
     },
     {
+      path: '/queries',
+      name: 'Queries',
+      component: function (resolve) {
+        require(['@/views/Queries'], resolve)
+      }
+    },
+    {
+      path: '/tickets',
+      name: 'Tickets',
+      component: function (resolve) {
+        require(['@/views/Tickets'], resolve)
+      }
+    },
+    {
+      path: '/crons',
+      name: 'Crons',
+      component: function (resolve) {
+        require(['@/views/Crons'], resolve)
+      }
+    },
+    {
+      path: '/clusters',
+      name: 'Clusters',
+      component: function (resolve) {
+        require(['@/views/Clusters'], resolve)
+      }
+    },
+    {
+      path: '/rules',
+      name: 'Rules',
+      component: function (resolve) {
+        require(['@/views/Rules'], resolve)
+      }
+    },
+    {
+      path: '/users',
+      name: 'Users',
+      component: function (resolve) {
+        require(['@/views/Users'], resolve)
+      }
+    },
+    {
       path: '/demo',
       name: 'Demo',
       component: function (resolve) {
@@ -43,6 +85,13 @@ export default new Router({
       name: 'about',
       component: function (resolve) {
         require(['@/views/About'], resolve)
+      }
+    },
+    {
+      path: '/forms',
+      name: 'forms',
+      component: function (resolve) {
+        require(['@/views/Forms'], resolve)
       }
     },
     {

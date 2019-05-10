@@ -1,6 +1,5 @@
 <template>
   <div>
-    <vNav></vNav>
     <header class="a-header">
       <nav class="main-nav">
         <h1>{{headerName}}</h1>
@@ -15,8 +14,6 @@
         </li>
       </ul>
     </div>
-    <tag-content-list></tag-content-list>
-    <Copyright />
   </div>
 </template>
 
@@ -24,13 +21,6 @@
 import Vuex from 'vuex'
 
 export default {
-  components: {
-    'TagContentList': () => import('../components/TagContentList'),
-    'vHeader': () => import('../components/Header'),
-    'vNav': () => import('../components/Nav'),
-    'Copyright': () => import('../components/Copyright.vue')
-  },
-
   data () {
     return {
       selected: 0,

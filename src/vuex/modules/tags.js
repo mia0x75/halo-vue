@@ -1,7 +1,7 @@
 import {
   GET_TAGS,
   GET_TAGS_FAILURE
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   tagList: []

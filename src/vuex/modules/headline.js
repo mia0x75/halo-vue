@@ -1,7 +1,7 @@
 import {
   GET_HEADLINE,
   UPDATE_HEADLINE
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   headline: ''

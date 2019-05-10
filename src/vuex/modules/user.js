@@ -2,7 +2,7 @@ import {
   LOGIN_USER,
   LOGIN_USER_FAILURE,
   LOGOUT_USER
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   username: '',

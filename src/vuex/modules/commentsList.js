@@ -3,7 +3,7 @@ import {
   GET_COMMENTS_LIST_FAILURE,
   SUBMIT_COMMENT,
   SUBMIT_COMMENT_FAILURE
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   commentsList: []

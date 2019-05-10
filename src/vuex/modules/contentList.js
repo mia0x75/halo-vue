@@ -5,7 +5,7 @@ import {
   GET_CONTENT_LIST_FAILURE,
   POST_ARTICLE,
   POST_ARTICLE_FAILURE
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   isFetching: false,

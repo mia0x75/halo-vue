@@ -4,7 +4,7 @@ import {
   CLEAR_ARTICLE,
   SET_LOADING_TRUE,
   SET_LOADING_FALSE
-} from '../actions'
+} from '../behaviors'
 
 const state = {
   content: '',

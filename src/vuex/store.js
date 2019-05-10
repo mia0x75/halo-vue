@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import createLogger from 'vuex/dist/logger'
-import actions from './actions'
+import behaviors from './behaviors'
 
 // modules 模块分类
 import contentList from './modules/contentList'
@@ -20,7 +20,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
   strict: debug,
-  actions,
+  behaviors,
   modules: {
     contentList,
     article,
